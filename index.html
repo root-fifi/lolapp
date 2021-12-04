@@ -3,17 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>project1_home_page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="margin: 0; padding: 0;">
-    <img src="logo.png" alt="" style="width: 100%; height: 200px;">
-    <h1 style="text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">BIENVENUE SUR LOL-APPWEB</h1>
-    <script>
-        function dothat() {
-            alert("Vous avez clique sur le texte !")
-        }
-        var texte=document.querySelector("h1")
-        texte.addEventListener("click",dothat)
-    </script>
+<body>
+    <!-- en-tete et menu de la page d'accueil -->
+    <div class="entete">
+        <header>
+            <div class="logo">
+                <img src="img/logo.jpg" alt="logo du site" class="logos">
+            </div>
+        </header>
+
+        <nav>
+            <ul class="menu">
+                <li class="services"><a href="#">Services</a></li>
+                <li class="about"><a href="#">About</a></li>
+                <li class="contact"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- banniere -->
+
+    <div class="banner">
+        <div class="banner-text">
+            <p>
+                MANGANIME EST TA PLATEFORME DE DECOUVERTE ! <br/>
+                DECOUVRE ET PARTAGE TES ANIMES ET MANGAS. <br/>
+                <button type="submit">DECOUVRIR</button>
+            </p>
+        </div>
+        <div class="banner-img">
+            <img src="img/banniere-img.jpg" alt="banniere du site">
+        </div>
+    </div>
+
+
+    <!-- divers sections -->
+
+    <section class="cards">
+        <section class="card">
+            <div class="card-img">
+                <img src="img/card-imgs/img1.jpg" alt="">
+            </div>
+            <div class="card-text">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/>
+                Temporibus, quidem laboriosam. Voluptatum, nostrum commodi hic fuga distinctio possimus, <br/>
+                praesentium quisquam perspiciatis necessitatibus ex voluptate impedit in beatae saepe repudiandae obcaecati. <br/>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.  <br/>
+                Amet laboriosam temporibus exercitationem ullam deleniti nihil esse id labore recusandae commodi sit inventore, <br/>
+                vel voluptates, nemo laborum necessitatibus! Distinctio, mollitia numquam!
+                </p>
+            </div>
+        </section>
+        <section class="card">
+            <div class="card-img">
+                <img src="img/card-imgs/img2.png" alt="">
+            </div>
+            <div class="card-text">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/>
+                Temporibus, quidem laboriosam. Voluptatum, nostrum commodi hic fuga distinctio possimus, <br/>
+                praesentium quisquam perspiciatis necessitatibus ex voluptate impedit in beatae saepe repudiandae obcaecati. <br/>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.  <br/>
+                Amet laboriosam temporibus exercitationem ullam deleniti nihil esse id labore recusandae commodi sit inventore, <br/>
+                vel voluptates, nemo laborum necessitatibus! Distinctio, mollitia numquam!
+                </p>
+            </div>
+        </section>
+        <section class="card">
+            <div class="card-img">
+                <img src="img/card-imgs/img3.jpg" alt="">
+            </div>
+            <div class="card-text">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/>
+                Temporibus, quidem laboriosam. Voluptatum, nostrum commodi hic fuga distinctio possimus, <br/>
+                praesentium quisquam perspiciatis necessitatibus ex voluptate impedit in beatae saepe repudiandae obcaecati. <br/>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.  <br/>
+                Amet laboriosam temporibus exercitationem ullam deleniti nihil esse id labore recusandae commodi sit inventore, <br/>
+                vel voluptates, nemo laborum necessitatibus! Distinctio, mollitia numquam!
+                </p>
+            </div>
+        </section>
+    </section>
+    
+
+    <!-- pied de page -->
+
+    <footer class="pied_de_page">
+        <p>
+            copyright 2021 MANGANIME  -  Tous droits reserves.
+        </p>
+    </footer>
+
 </body>
 </html>
